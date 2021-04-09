@@ -272,7 +272,8 @@ open class AttributedStringGenerator {
   }
 
   open var h1Style: String {
-    return "font-size: \(self.fontSize + 6)px;" +
+    return "font-size: 22px;" +
+    "font-family: Rubik-Medium;" +
            "color: \(self.h1Color);" +
            "margin: 0.7em 0 0.5em 0;"
   }
