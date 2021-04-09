@@ -19,6 +19,7 @@
 //
 
 import Foundation
+import UIKit
 
 ///
 /// `HtmlGenerator` provides functionality for converting Markdown blocks into HTML. The
@@ -173,7 +174,7 @@ open class HtmlGenerator {
       case .image(let text, let uri, let title):
         let titleAttr = title == nil ? "" : " title=\"\(title!)\""
         if let uri = uri {
-          return "<img src=\"\(uri)\" alt=\"\(text.rawDescription)\"\(titleAttr)/>"
+          return "<img src=\"\(uri)\" alt=\"\(text.rawDescription)\"\(titleAttr) width="UIScreen.main.bounds.width"/>"
         } else {
           return self.generate(text: text)
         }
