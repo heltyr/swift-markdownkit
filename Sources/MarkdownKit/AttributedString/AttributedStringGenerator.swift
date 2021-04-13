@@ -162,7 +162,7 @@ open class AttributedStringGenerator {
 
   /// Constructor providing customization options for the generated `NSAttributedString` markup.
   public init(fontSize: Float = 14.0,
-              fontFamily: String = ".AppleSystemUIFont",//"\"Times New Roman\",Times,serif",
+              fontFamily: String = "Helvetica Neue", //".AppleSystemUIFont",//"\"Times New Roman\",Times,serif",
               fontColor: String = mdDefaultColor,
               codeFontSize: Float = 13.0,
               codeFontFamily: String =
@@ -177,11 +177,10 @@ open class AttributedStringGenerator {
               h2Color: String = mdDefaultColor,
               h3Color: String = mdDefaultColor,
               h4Color: String = mdDefaultColor) {
-    for fontFamilyName in UIFont.familyNames{
-        for fontName in UIFont.fontNames(forFamilyName: fontFamilyName){
-            print("Family: \(fontFamilyName)     Font: \(fontName)")
-        }
-    }
+    UIFont.familyNames.forEach({ familyName in
+        let fontNames = UIFont.fontNames(forFamilyName: familyName)
+        print(familyName, fontNames)
+    })
     print("fontFamily: \(fontFamily)")
     self.fontSize = fontSize
     self.fontFamily = fontFamily
@@ -278,8 +277,7 @@ open class AttributedStringGenerator {
   }
 
   open var h1Style: String {
-    return "font-size: 20px;" +
-            "font-family: Rubik;" +
+    return "font-size: \(self.fontSize + 6)px;" +
            "color: \(self.h1Color);" +
            "margin: 0.7em 0 0.5em 0;"
   }
