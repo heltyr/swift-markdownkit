@@ -162,7 +162,7 @@ open class AttributedStringGenerator {
 
   /// Constructor providing customization options for the generated `NSAttributedString` markup.
   public init(fontSize: Float = 14.0,
-              fontFamily: String = "\"Times New Roman\",Times,serif",
+              fontFamily: String = ".AppleSystemUIFont",//"\"Times New Roman\",Times,serif",
               fontColor: String = mdDefaultColor,
               codeFontSize: Float = 13.0,
               codeFontFamily: String =
