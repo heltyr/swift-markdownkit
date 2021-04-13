@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C53709542625F0AA0043362E /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53709532625F0AA0043362E /* Rubik-Medium.ttf */; };
 		CC088C0B22DB74090059460E /* TextFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC088C0A22DB74090059460E /* TextFragment.swift */; };
 		CC088C0F22DD2BCD0059460E /* HtmlGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC088C0E22DD2BCD0059460E /* HtmlGenerator.swift */; };
 		CC088C2422E337BD0059460E /* MarkdownHtmlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC088C2322E337BD0059460E /* MarkdownHtmlTests.swift */; };
@@ -118,6 +119,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C53709532625F0AA0043362E /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		CC088C0A22DB74090059460E /* TextFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFragment.swift; sourceTree = "<group>"; };
 		CC088C0E22DD2BCD0059460E /* HtmlGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlGenerator.swift; sourceTree = "<group>"; };
 		CC088C2322E337BD0059460E /* MarkdownHtmlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownHtmlTests.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				CC088C0D22DD2BA70059460E /* AttributedString */,
 				CC2AF6EB227CD98100BEA420 /* MarkdownKit.h */,
 				CC2AF6EC227CD98100BEA420 /* Info.plist */,
+				C53709532625F0AA0043362E /* Rubik-Medium.ttf */,
 			);
 			name = MarkdownKit;
 			path = Sources/MarkdownKit;
@@ -470,6 +473,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53709542625F0AA0043362E /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
