@@ -177,6 +177,12 @@ open class AttributedStringGenerator {
               h2Color: String = mdDefaultColor,
               h3Color: String = mdDefaultColor,
               h4Color: String = mdDefaultColor) {
+    for fontFamilyName in UIFont.familyNames{
+        for fontName in UIFont.fontNames(forFamilyName: fontFamilyName){
+            print("Family: \(fontFamilyName)     Font: \(fontName)")
+        }
+    }
+    print("fontFamily: \(fontFamily)")
     self.fontSize = fontSize
     self.fontFamily = fontFamily
     self.fontColor = fontColor
