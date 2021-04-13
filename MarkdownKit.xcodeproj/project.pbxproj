@@ -10,7 +10,7 @@
 		C53709542625F0AA0043362E /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53709532625F0AA0043362E /* Rubik-Medium.ttf */; };
 		C537095F2625F68F0043362E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC2AF6EC227CD98100BEA420 /* Info.plist */; };
 		C53709692625F7820043362E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53709682625F7820043362E /* Roboto-Regular.ttf */; };
-		C537096A2625F7820043362E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53709682625F7820043362E /* Roboto-Regular.ttf */; };
+		C537097C2625F8290043362E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C537097B2625F8290043362E /* Roboto-Medium.ttf */; };
 		CC088C0B22DB74090059460E /* TextFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC088C0A22DB74090059460E /* TextFragment.swift */; };
 		CC088C0F22DD2BCD0059460E /* HtmlGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC088C0E22DD2BCD0059460E /* HtmlGenerator.swift */; };
 		CC088C2422E337BD0059460E /* MarkdownHtmlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC088C2322E337BD0059460E /* MarkdownHtmlTests.swift */; };
@@ -124,6 +124,7 @@
 /* Begin PBXFileReference section */
 		C53709532625F0AA0043362E /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		C53709682625F7820043362E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C537097B2625F8290043362E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		CC088C0A22DB74090059460E /* TextFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFragment.swift; sourceTree = "<group>"; };
 		CC088C0E22DD2BCD0059460E /* HtmlGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlGenerator.swift; sourceTree = "<group>"; };
 		CC088C2322E337BD0059460E /* MarkdownHtmlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownHtmlTests.swift; sourceTree = "<group>"; };
@@ -274,6 +275,7 @@
 				CC2AF6EC227CD98100BEA420 /* Info.plist */,
 				C53709532625F0AA0043362E /* Rubik-Medium.ttf */,
 				C53709682625F7820043362E /* Roboto-Regular.ttf */,
+				C537097B2625F8290043362E /* Roboto-Medium.ttf */,
 			);
 			name = MarkdownKit;
 			path = Sources/MarkdownKit;
@@ -478,6 +480,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C537097C2625F8290043362E /* Roboto-Medium.ttf in Resources */,
 				C53709692625F7820043362E /* Roboto-Regular.ttf in Resources */,
 				C53709542625F0AA0043362E /* Rubik-Medium.ttf in Resources */,
 				C537095F2625F68F0043362E /* Info.plist in Resources */,
@@ -488,7 +491,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C537096A2625F7820043362E /* Roboto-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
