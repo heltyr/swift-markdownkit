@@ -176,13 +176,13 @@ open class HtmlGenerator {
         }
       case .image(let text, let uri, let title):
         let titleAttr = title == nil ? "" : " title=\"\(title!)\""
-        var str = ""
+        var widthImage = ""
         #if os(iOS) || os(watchOS) || os(tvOS)
-        str = "\(UIScreen.main.bounds.width)"
+        widthImage = "\(UIScreen.main.bounds.width)"
         #else
         #endif
         if let uri = uri {
-          return "<img src=\"\(uri)\" alt=\"\(text.rawDescription)\"\(titleAttr) width=\"\(str)\"/>"
+          return "<img src=\"\(uri)\" alt=\"\(text.rawDescription)\"\(titleAttr) width=\"\(widthImage)\"/>"
         } else {
           return self.generate(text: text)
         }
